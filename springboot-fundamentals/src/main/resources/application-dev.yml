@@ -1,0 +1,9 @@
+app:
+  title: Dev Title
+
+library:
+  name: Development Library
+  mode: development
+
+server:
+  port: 8082

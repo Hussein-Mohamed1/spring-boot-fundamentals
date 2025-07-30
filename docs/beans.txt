@@ -1,0 +1,8 @@
+# Spring Context Bean Inspection Output
+
+This file will contain the output from ContextInspector showing:
+- Total number of beans
+- All bean names (sorted)
+- Count of beans starting with "org.springframework"
+
+To capture this output, run the Spring Boot application and observe the console output. 

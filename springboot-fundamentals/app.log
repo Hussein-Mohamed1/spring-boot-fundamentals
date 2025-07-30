@@ -1,0 +1,219 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.example:springboot-fundamentals[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding springboot-fundamentals 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.2.0:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mspringboot-fundamentals[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mspringboot-fundamentals[0;1m ---[m
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 0 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mspringboot-fundamentals[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mspringboot-fundamentals[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/hussein/Repos/sprints/SpringBootFundamentals/springboot-fundamentals/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mspringboot-fundamentals[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.2.0:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mspringboot-fundamentals[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.2.0:run[m [1m(default-cli)[m @ [36mspringboot-fundamentals[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-07-30T14:30:06.528+03:00  INFO 94785 --- [           main] c.e.SpringbootFundamentalsApplication    : Starting SpringbootFundamentalsApplication using Java 17.0.15 with PID 94785 (/home/hussein/Repos/sprints/SpringBootFundamentals/springboot-fundamentals/target/classes started by hussein in /home/hussein/Repos/sprints/SpringBootFundamentals/springboot-fundamentals)
+2025-07-30T14:30:06.532+03:00  INFO 94785 --- [           main] c.e.SpringbootFundamentalsApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-07-30T14:30:07.362+03:00  INFO 94785 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-07-30T14:30:07.377+03:00  INFO 94785 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-30T14:30:07.378+03:00  INFO 94785 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-07-30T14:30:07.418+03:00  INFO 94785 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-30T14:30:07.419+03:00  INFO 94785 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 835 ms
+=== LifecycleBean.start() called ===
+2025-07-30T14:30:07.760+03:00  INFO 94785 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path ''
+2025-07-30T14:30:07.769+03:00  INFO 94785 --- [           main] c.e.SpringbootFundamentalsApplication    : Started SpringbootFundamentalsApplication in 1.596 seconds (process running for 1.766)
+=== Spring Context Bean Inspection ===
+Total beans found: 162
+
+All bean names:
+- appProperties
+- applicationAvailability
+- applicationTaskExecutor
+- basicErrorController
+- beanNameHandlerMapping
+- beanNameViewResolver
+- characterEncodingFilter
+- contextInspector
+- conventionErrorViewResolver
+- defaultServletHandlerMapping
+- defaultViewResolver
+- dispatcherServlet
+- dispatcherServletRegistration
+- error
+- errorAttributes
+- errorPageCustomizer
+- errorPageRegistrarBeanPostProcessor
+- fileWatcher
+- flashMapManager
+- forceAutoProxyCreatorToUseClassProxying
+- formContentFilter
+- greetingController
+- handlerExceptionResolver
+- handlerFunctionAdapter
+- httpMessageConvertersRestClientCustomizer
+- httpRequestHandlerAdapter
+- jacksonObjectMapper
+- jacksonObjectMapperBuilder
+- jsonComponentModule
+- jsonMixinModule
+- jsonMixinModuleEntries
+- lifecycleBean
+- lifecycleProcessor
+- localeCharsetMappingsCustomizer
+- localeResolver
+- mappingJackson2HttpMessageConverter
+- messageConverters
+- mockTimeService
+- multipartConfigElement
+- multipartResolver
+- mvcContentNegotiationManager
+- mvcConversionService
+- mvcHandlerMappingIntrospector
+- mvcPathMatcher
+- mvcPatternParser
+- mvcResourceUrlProvider
+- mvcUriComponentsContributor
+- mvcUrlPathHelper
+- mvcValidator
+- mvcViewResolver
+- org.springframework.aop.config.internalAutoProxyCreator
+- org.springframework.boot.autoconfigure.AutoConfigurationPackages
+- org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+- org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+- org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+- org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+- org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+- org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+- org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration
+- org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+- org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration
+- org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration
+- org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+- org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+- org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration
+- org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration
+- org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonMixinConfiguration
+- org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration
+- org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration
+- org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration
+- org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+- org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+- org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+- org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+- org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorBuilderConfiguration
+- org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+- org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+- org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+- org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+- org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$TaskSchedulerBuilderConfiguration
+- org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+- org.springframework.boot.autoconfigure.web.client.RestClientAutoConfiguration
+- org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration
+- org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
+- org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration
+- org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
+- org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+- org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+- org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration
+- org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration
+- org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration
+- org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+- org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration
+- org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+- org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+- org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+- org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+- org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+- org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration
+- org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration
+- org.springframework.boot.context.internalConfigurationPropertiesBinder
+- org.springframework.boot.context.properties.BoundConfigurationProperties
+- org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+- org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+- org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+- org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+- org.springframework.context.annotation.internalCommonAnnotationProcessor
+- org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+- org.springframework.context.event.internalEventListenerFactory
+- org.springframework.context.event.internalEventListenerProcessor
+- parameterNamesModule
+- preserveErrorControllerTargetClassPostProcessor
+- propertySourcesPlaceholderConfigurer
+- requestContextFilter
+- requestMappingHandlerAdapter
+- requestMappingHandlerMapping
+- resourceHandlerMapping
+- restClientBuilder
+- restClientBuilderConfigurer
+- restClientSsl
+- restTemplateBuilder
+- restTemplateBuilderConfigurer
+- routerFunctionMapping
+- server-org.springframework.boot.autoconfigure.web.ServerProperties
+- servletWebServerFactoryCustomizer
+- simpleAsyncTaskExecutorBuilder
+- simpleAsyncTaskSchedulerBuilder
+- simpleControllerHandlerAdapter
+- spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+- spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties
+- spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+- spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties
+- spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties
+- spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+- spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+- spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+- spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+- spring.web-org.springframework.boot.autoconfigure.web.WebProperties
+- springbootFundamentalsApplication
+- sslBundleRegistry
+- sslPropertiesSslBundleRegistrar
+- standardJacksonObjectMapperBuilderCustomizer
+- startupListener
+- stringHttpMessageConverter
+- systemTimeService
+- taskExecutorBuilder
+- taskSchedulerBuilder
+- themeResolver
+- threadPoolTaskExecutorBuilder
+- threadPoolTaskSchedulerBuilder
+- timeController
+- titleController
+- tomcatServletWebServerFactory
+- tomcatServletWebServerFactoryCustomizer
+- tomcatWebServerFactoryCustomizer
+- viewControllerHandlerMapping
+- viewNameTranslator
+- viewResolver
+- webServerFactoryCustomizerBeanPostProcessor
+- websocketServletWebServerCustomizer
+- welcomePageHandlerMapping
+- welcomePageNotAcceptableHandlerMapping
+
+Beans starting with 'org.springframework': 60
+=== End of Bean Inspection ===
+
+=== Application is ready and listening for requests ===
+Startup completed at: 1753875007774
+Application context: 
+=== LifecycleBean.stop() called ===

@@ -1,0 +1,6 @@
+library:
+  name: Production Library
+  mode: production
+
+server:
+  port: 8080

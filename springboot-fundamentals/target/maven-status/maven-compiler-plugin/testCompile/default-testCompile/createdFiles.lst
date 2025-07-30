@@ -1,0 +1,5 @@
+com/example/SpringbootFundamentalsApplicationTests.class
+com/yourorg/library/ComponentScanIntegrationTest.class
+com/example/GreetingControllerTest.class
+com/example/TimeControllerTest.class
+com/example/TitleControllerTest.class

@@ -1,0 +1,8 @@
+# Application Lifecycle Logs
+
+This file will contain logs captured when running the Spring Boot application to demonstrate:
+- ApplicationReadyEvent listener output
+- SmartLifecycle bean start()/stop() method calls
+- Context inspection results
+
+To capture these logs, run the application and observe the console output. 
