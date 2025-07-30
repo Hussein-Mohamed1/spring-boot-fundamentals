@@ -112,7 +112,18 @@ SpringBootFundamentals/
 
 ### Testing Endpoints
 
-Once the Spring Boot application is running:
+1. **Start the Spring Boot application**:
+
+   ```bash
+   cd springboot-fundamentals && mvn spring-boot:run
+   ```
+
+2. **Run the automated test script**:
+   ```bash
+   ./test-features.sh
+   ```
+
+Or test endpoints manually:
 
 ```bash
 # Basic hello endpoint
